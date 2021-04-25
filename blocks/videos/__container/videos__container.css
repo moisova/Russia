@@ -1,0 +1,27 @@
+.videos__container {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1184px;
+  justify-content: flex-start;
+}
+
+@media (max-width:1024px) {
+  .videos__container {
+    max-width: 928px;
+  }
+}
+
+@media (max-width:768px) {
+  .videos__container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width:425px) {
+  .videos__container {
+    width: 91%;
+    flex-wrap: wrap;
+  }
+}

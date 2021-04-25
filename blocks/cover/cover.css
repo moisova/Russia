@@ -1,0 +1,31 @@
+@import url('../cover/__title/cover__title.css');
+@import url('../cover/__subtitle/cover__subtitle.css');
+@import url('../cover/__link/cover__link.css');
+
+.cover {
+  position: relative;
+  margin: 102px auto 82px auto;
+  max-width: 1184px;
+  min-height: 564px;
+  z-index: 1;
+}
+
+@media (max-width:1024px) {
+  .cover {
+    max-width: 100%;
+    display: block;
+    min-height: 562px;
+  }
+}
+
+@media (max-width:768px) {
+  .cover {
+    min-height: 500px;
+  }
+}
+
+@media (max-width:425px) {
+  .cover {
+    min-height: 216px;
+  }
+}

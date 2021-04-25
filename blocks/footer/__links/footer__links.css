@@ -1,0 +1,23 @@
+.footer__links {
+  margin: 0 auto 48px auto;
+}
+
+@media (max-width:1024px) { 
+  .footer__links {
+    margin: 0 auto 24px 24px;
+  }
+}
+
+/*@media (max-width:768px) { 
+  .footer__links {
+    width:100%;
+  }
+}
+
+@media (max-width:425px) { 
+  .footer__links {
+    max-width: 312px;
+    margin-bottom: 0;
+  }
+}
+

@@ -1,0 +1,14 @@
+@import url('../lead/__title/lead__title.css');
+@import url('../lead/__subtitle/lead__subtitle.css');
+@import url('../lead/__pic-caption/lead__pic-caption.css');
+@import url('../lead/__pic/lead__pic.css');
+@import url('../lead/__content/lead__content.css');
+
+
+
+.lead {
+	color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  }

@@ -1,0 +1,8 @@
+.place__url {
+  color: white;
+}
+
+.place__url:hover {
+  opacity: .9;
+  transition: cubic-bezier(1, 0, 0, 1);
+}

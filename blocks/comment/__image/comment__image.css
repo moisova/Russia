@@ -1,0 +1,12 @@
+.comment__image {
+  border-radius: 50%;
+  max-width: 97px;
+  height: 97px;
+}
+
+@media (max-width:768px) {
+  .comment__image {
+    order: 1;
+  }
+}
+

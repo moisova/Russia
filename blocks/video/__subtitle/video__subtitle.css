@@ -1,0 +1,9 @@
+.video__subtitle {
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  z-index: 2;
+  margin: 0;
+}

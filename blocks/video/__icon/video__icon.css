@@ -1,0 +1,11 @@
+.video__icon {
+  position: relative;
+  z-index: 2;
+  margin: 30px auto auto 30px;
+}
+
+@media (max-width:768px) {
+  .video__icon {
+    margin: 24px auto auto 24px;
+  }
+}

@@ -1,0 +1,12 @@
+.comment__container {
+  display: flex;
+  margin: 0 auto; 
+}  
+
+@media (max-width:768px) {
+  .comment__container {
+    text-align: center;
+    max-width: 382px;
+    flex-wrap: wrap;
+  }
+}

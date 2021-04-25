@@ -1,0 +1,26 @@
+.video__item-bg {
+  height: 323px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  border-radius: 5px;
+  opacity: .7 ;
+}
+
+@media (max-width:1024px) {
+  .video__item-bg {
+    height: 288px;
+  }
+}
+
+@media (max-width:768px) {
+  .video__item-bg {
+    height: 200px;
+  }
+} 
+
+  

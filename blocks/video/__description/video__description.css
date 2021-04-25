@@ -1,0 +1,18 @@
+.video__description {
+  margin: auto auto 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media (max-width:1024px) {
+  .video__description {
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width:768px) {
+  .video__description {
+    margin: auto auto 24px 24px;
+  }
+}
